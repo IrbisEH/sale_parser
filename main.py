@@ -161,5 +161,6 @@ if __name__ == '__main__':
             print(url)
             course = Course(course_id, url)
             course.check_price()
+        print(f'{datetime.now().strftime("%d-%m-%Y %H:%M")}'.center(40, '.'))
         print('End loop'.center(40, '-'))
         time.sleep(SLEEP)
